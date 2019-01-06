@@ -11,6 +11,7 @@ class App < Sinatra::Base
     post "/teams" do
       @team = params["team"]
 
+      erb :super_hero
     end
 
 end
